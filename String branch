@@ -1,0 +1,4 @@
+ String branch = entry.getKey();
+            String[] commits = entry.getValue();
+            System.out.println("  " + branch + ": " + String.join(", ", commits));
+        }
